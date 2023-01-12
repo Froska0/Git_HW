@@ -14,6 +14,7 @@ GIT Homework 1
 
 JSON
  4. Создать внешний репозиторий c названием JSON.
+* для того, чтобы не плодить не несущие важной информации репозитории по факту всё ДЗ сделано в  одном репозитории Git_HW.
 https://github.com/Froska0/JSON
 
  5. Клонировать репозиторий JSON на локальный компьютер.
@@ -72,7 +73,7 @@ cat > sklls.json
 	"skill_5": "Removing and reading logs from an external server",
 	"skill_6": "VPN",
 	"skill_7": "Mobile testing",
-	"skill_8": "Feature iOS, Android, guidelines",
+	"skill_8": ["Feature iOS", "Android", "guidelines"],
 	"skill_9": "Building Android applications on Android Studio",
 	"skill_10": "Android device management",
 	"skill_11": "Command line (terminal) Linux",
