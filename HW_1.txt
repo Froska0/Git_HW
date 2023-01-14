@@ -133,6 +133,7 @@ cat > new.xml
   <pets_name>Chernysh</pets_name>
   <salary>1000</salary>
 </about>
+Ctrl + C
 
  28. Отправить изменения на внешний репозиторий.
 git commit -am "modified new.xml"
@@ -180,7 +181,7 @@ cat > sklls.xml
 Ctrl + C
 
  32. Сделать коммит в одну строку.
-git add . && git commit -m "added 2 files preferences.json and sklls.json
+git add . && git commit -m "added 2 files preferences.xml and sklls.xml"
 
  33. Отправить сразу 2 файла на внешний репозиторий.
 git push
@@ -219,7 +220,7 @@ name: Anna,
 surname: Krylova,
 age: 38,	
 pets: 1,
-pets_name: "Chernysh,
+pets_name: Chernysh,
 salary: 1000
 Ctrl + C
 
