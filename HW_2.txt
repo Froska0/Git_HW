@@ -53,7 +53,7 @@ git push -u origin main
 
 7. В ветке CheckLists набросать структуру чек листа.
 git checkout CheckLists
-cat >> CheckList.txt
+cat > CheckList.txt
 Сhecklist structure:
 	Id: unique number
 	Title
