@@ -20,7 +20,7 @@ git push -u origin --all
 
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 git checkout Bag-Reports
-cat >> Bag_Report.txt
+cat > Bag_Report.txt
 Bug report:
   Title: There is an endless loading on login page after pressing the Login button
   Environment: Win10 x64 Firefox 103.0.2
